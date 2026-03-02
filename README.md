@@ -39,7 +39,7 @@ Most ML projects stop at the first question.
 ---
 
 ## High-Level System Flow
-``` mermaid
+```
 Applicant Features
 ↓
 Probability of Default (PD)
