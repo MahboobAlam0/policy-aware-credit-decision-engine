@@ -1,3 +1,13 @@
+---
+title: Policy-Aware Credit Decisioning Engine
+emoji: 🏦
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Policy-Aware Credit Decisioning Engine — Explainable AI for Loan Default Risk Under Fairness Constraints
 
 ## Overview
