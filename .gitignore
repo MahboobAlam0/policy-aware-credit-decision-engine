@@ -17,10 +17,8 @@ home-credit-default-risk/
 
 # Model artifacts (regenerated via pipeline)
 artifacts/**/*.pkl
-artifacts/**/*.pt
 artifacts/**/*.csv
 artifacts/**/*.json
-artifacts/**/plots/
 # Exception: the coupled bundle is required at runtime
 !artifacts/xai_loandefault/coupled_model_explainer.pkl
 
