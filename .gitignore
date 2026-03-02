@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Data (too large for version control)
+home-credit-default-risk/
+*.csv
+
+# Model artifacts (regenerated via pipeline)
+artifacts/**/*.pkl
+artifacts/**/*.pt
+artifacts/**/*.csv
+artifacts/**/*.json
+artifacts/**/plots/
+# Exception: the coupled bundle is required at runtime
+!artifacts/xai_loandefault/coupled_model_explainer.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
